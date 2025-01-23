@@ -11,13 +11,6 @@ import math
 from datetime import date
 
 # Create your views here.
-class ManagerOnlyView(APIView):
-    permission_classes = [IsAuthenticated]
-    def get(self, request):
-        user = request.user
-        if user.groups.filter(name="Manager").exists():
-            return Response({"is_manager": True, "message": "User is in the Manager group"})
-        return Response({"is_manager": False, "message": "User is not in the Manager group"})
     
 class CategoriesView(generics.ListCreateAPIView):
     throttle_classes = [AnonRateThrottle, UserRateThrottle]
@@ -221,3 +214,12 @@ class SingleOrderView(generics.RetrieveUpdateAPIView):
         order_number = str(order.id)
         order.delete()
         return Response({'message':f'Order #{order_number} was deleted'}, status.HTTP_200_OK)
+    
+# Test
+class ManagerOnlyView(APIView):
+    permission_classes = [IsAuthenticated]
+    def get(self, request):
+        user = request.user
+        if user.groups.filter(name="Manager").exists():
+            return Response({"is_manager": True, "message": "User is in the Manager group"})
+        return Response({"is_manager": False, "message": "User is not in the Manager group"})
