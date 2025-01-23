@@ -9,7 +9,6 @@ class MenuItemSerializer(serializers.ModelSerializer):
     class Meta():
         model = MenuItem
         fields = ['id','title','price','featured','category']
-        depth = 1
 
 class CategorySerializer(serializers.ModelSerializer):
     class Meta():
@@ -59,11 +58,12 @@ class SingleHelperSerializer(serializers.ModelSerializer):
     class Meta():
         model = MenuItem
         fields = ['title','price']
+
 class SingleOrderSerializer(serializers.ModelSerializer):
     menuitem = SingleHelperSerializer()
     class Meta():
         model = OrderItem
-        fields = ['menuitem','quantity']
+        fields = ['id','menuitem','quantity','price']
 
 
 class OrderInsertSerializer(serializers.ModelSerializer):

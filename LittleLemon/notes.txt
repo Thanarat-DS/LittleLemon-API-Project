@@ -3,6 +3,4 @@ Super user for peer review.
 Username: admin
 Password: 123456
 
-Username: ManagerJohn
-Password: lemon121
 
