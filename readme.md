@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Project structure and API routes
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
