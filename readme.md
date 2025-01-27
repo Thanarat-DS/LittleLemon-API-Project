@@ -12,7 +12,7 @@
   โปรเจคนี้เป็นส่วนหนึ่งของคอร์สเรียน
   <a href="https://www.coursera.org/learn/apis">APIs</a> ที่จัดโดย <a href="https://www.coursera.org/professional-certificates/meta-back-end-developer">Meta</a>
   บนแพลตฟอร์ม Coursera และเป็นโปรเจคชิ้นสุดท้ายที่ใช้เพื่อจบคอร์ส ในโปรเจคนี้ ผู้สอนจะไม่ให้ตัวอย่างโค้ดใดๆ โดยจะต้องเริ่มสร้าง API จากศูนย์และทำให้สำเร็จตาม task ที่มอบหมาย
-  คอร์สนี้ยังเป็น 1 ใน 9 เงื่อนไขที่ต้องสำเร็จเพื่อได้รับประกาศนียบัตร <b>Professional Certificate</b> จากโปรแกรมการพัฒนา API ของ Meta
+  คอร์สนี้ยังเป็น 1 ใน 9 เงื่อนไขที่ต้องสำเร็จเพื่อได้รับประกาศนียบัตร <b>Professional Certificate</b> จากโปรแกรม Back-End Developer ของ Meta
 </p>
 
 <p>
