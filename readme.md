@@ -5,7 +5,7 @@
   <a href="https://www.coursera.org/learn/apis">APIs</a> course offered by <a href="https://www.coursera.org/professional-certificates/meta-back-end-developer">Meta</a>
   on Coursera. It serves as the final project required to complete the course.
   The goal is to build an API from scratch that meets the specified tasks, demonstrating the knowledge and skills gained throughout the course.
-  This project is also one of the nine requirements for earning the <b>Professional Certificate</b> in Meta Back-End Developer program.
+  This course is also one of the nine requirements for earning the <b>Professional Certificate</b> in Meta Back-End Developer program.
 </p>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
